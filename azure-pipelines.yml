@@ -8,8 +8,7 @@ trigger:
 
 pool:
   name: Local Windows 10 Agent
-  demands: 
-   - agent.name 'ANIRUDDHT-AHM-L'
+
 steps:
 - task: Maven@3
   inputs:
